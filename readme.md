@@ -36,7 +36,8 @@ Installing mods is as easy as dropping downloaded .ASI files for THAW inside the
  And your done.
 
 
-##<i class="icon-info"></i>How does it work##
+##How does it work##
+-------------------
 
 I decided to write down some information for less expierenced users.
 
