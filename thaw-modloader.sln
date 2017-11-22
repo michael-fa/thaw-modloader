@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thaw-modloader", "thaw-modloader\thaw-modloader.vcxproj", "{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modloader", "modloader\modloader.vcxproj", "{2195648A-0A14-4146-8DA5-284E27CDA10C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Debug|x64.ActiveCfg = Debug|x64
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Debug|x64.Build.0 = Debug|x64
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Debug|x86.ActiveCfg = Debug|Win32
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Debug|x86.Build.0 = Debug|Win32
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Release|x64.ActiveCfg = Release|x64
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Release|x64.Build.0 = Release|x64
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Release|x86.ActiveCfg = Release|Win32
-		{CECC65D8-B74C-4AA8-BF50-3FBFC118DD7B}.Release|x86.Build.0 = Release|Win32
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Debug|x64.ActiveCfg = Debug|x64
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Debug|x64.Build.0 = Debug|x64
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Debug|x86.Build.0 = Debug|Win32
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Release|x64.ActiveCfg = Release|x64
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Release|x64.Build.0 = Release|x64
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Release|x86.ActiveCfg = Release|Win32
+		{2195648A-0A14-4146-8DA5-284E27CDA10C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
