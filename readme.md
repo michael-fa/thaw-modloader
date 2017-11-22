@@ -9,7 +9,7 @@ Its like any other .ASI loader.
 Modding support and API
 -------------
 
-Beside loading mods, it will soon have build-in debugging functions.
+Besides loading mods, it will soon have build-in debugging functions.
 Also, this mod loader is a part of my soon-to-be-announced modding API for THAW.
 
 > **Planned features for modding API:**
