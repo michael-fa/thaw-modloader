@@ -182,12 +182,12 @@ void OpenLogFile()
 	if (SHGetKnownFolderPath(FOLDERID_Documents, 0, 0, &docfolder) == S_OK)
 	{
 		wcstombs_s(NULL, logfilepath, docfolder, MAX_PATH);
-		strcat_s(logfilepath, "\\binkw32-me1.log");
+		strcat_s(logfilepath, "\\moadloder.log");
 		fopen_s(&Log, logfilepath, "w");
 		CoTaskMemFree(docfolder);
 		return;
 	}
-	fopen_s(&Log, "binkw32-me1.log", "w");
+	fopen_s(&Log, "modloader.log", "w");
 }
 
 DWORD WINAPI Start(LPVOID lpParam)
