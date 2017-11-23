@@ -34,15 +34,14 @@ void SetExecutableFolder()
 }
 
 // --- Load Plugins ---
-void loadPlugins(const char *folder)
+void loadPlugins()
 {
 	DWORD typeMask = 0x6973612e; // '.asi'
 	WIN32_FIND_DATA fd;
 	char targetfilter[FILENAME_MAX];
 	char currfile[FILENAME_MAX];
 	strcpy_s(targetfilter, exeBaseFolder);
-	strcat_s(targetfilter, folder);
-	strcat_s(targetfilter, "\\*.asi");
+	strcat_s(targetfilter, "*.asi");
 	HANDLE asiFile = FindFirstFile(targetfilter, &fd);
 	if (asiFile == INVALID_HANDLE_VALUE)
 		return;
@@ -58,8 +57,6 @@ void loadPlugins(const char *folder)
 			if (type == typeMask)
 			{
 				strcpy_s(currfile, exeBaseFolder);
-				strcat_s(currfile, folder);
-				strcat_s(currfile, "\\");
 				strcat_s(currfile, fd.cFileName);
 				if (LoadLibrary(currfile))
 				{
@@ -205,9 +202,7 @@ DWORD WINAPI Start(LPVOID lpParam)
 		return 0;
 	}
 	SetExecutableFolder();
-	loadPlugins("asi");
-	if (!ASIcount)
-		loadPlugins(".");
+	loadPlugins();
 	if (Log)
 		fclose(Log);
 	return 0;
