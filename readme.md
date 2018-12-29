@@ -14,9 +14,12 @@ Also, this mod loader is a part of my soon-to-be-announced modding API for THAW.
 
 > **Planned features for modding API:**
 
-> - Disable game navigation bar, special meter, trick & score line.
-> - Full access to Ped's, PedPool and structures within models and textures.
-> - Printing messages on screen **with or without d3dx hooks.** Without d3dx hooks would just use the games internal ways of displaying texts. **So basically d3dx as well.**
+> - Access HUD Components
+> - Gameplay changes via script injection (scripting)
+> - Spawn Objects, Peds and also stream car models
+> - DirectX access
+> - Support for multiplayer scripting (script natives for thaw's multiplayer mode - for server side host)
+    - maybe stream peds / objects to without using different networking??
 #### <i class="icon-plus"></i> Install Mods
 
 Installing mods is as easy as dropping downloaded .ASI files for THAW inside the game's root folder.
