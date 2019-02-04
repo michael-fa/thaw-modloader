@@ -8,10 +8,10 @@ Its like any other .ASI loader.
 :wrench: How to install modloader
 -------------------
 
- 1.Download the latest version from *[releases]* page.
- 2. Open the downloaded .ZIP file
- 3. Open Tony Hawk's American Wasteland root folder
- 4. Place all files from the downloaded .ZIP file inside the game's root folder.
+ - Download the latest version from *[releases]* page.
+ - Open the downloaded .ZIP file
+ - Open Tony Hawk's American Wasteland root folder
+ - Place all files from the downloaded .ZIP file inside the game's root folder.
  And your done.
 
 
