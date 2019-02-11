@@ -30,4 +30,4 @@ Now that we have one original binkw32.dll and our .dll file named the same, we n
 
 Now the game loads my binkw32.dll with my code in it, because it thinks its the one that came with the game. We can now do whatever whe want (and are able to) as long as we redirect all function calls from the game that are bink-functions to the original bink .dll file to let the code operate normally. As soon as our custom made binkw32.dll gets loaded, it finds all other .dll files, but renamed to .ASI - and loads them into the game like any other .dll. 
 
-[releases*]: <https://github.com/michael-fa/thaw-modloader/releases>
+[releases]: <https://github.com/michael-fa/thaw-modloader/releases>
