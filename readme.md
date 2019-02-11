@@ -6,7 +6,7 @@ Use mods in Tony Hawk's American Wasteland. This is the same like it's available
 Its like any other .ASI loader.
 (Modding support (script hooking) is not ready and we got everything on hold now.)
 
-*IMPORTANT* Right now, I am not working in thaw -> but im still developing my multiplayer mod.
+*IMPORTANT* Right now, I am not working with thaw -> but im still developing my multiplayer mod.
 Unless someone else knows his stuff and reverses the game on its own, or has something for thaw done yet there's no mod currently developed or at least working for/with this as far as I know, except my special meter keeper.
 
 :wrench: How to install modloader
