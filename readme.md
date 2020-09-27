@@ -4,10 +4,6 @@ Mod or .ASI Loader for THAW
 
 Use mods in Tony Hawk's American Wasteland. This is the same like it's available for other popular games.
 Its like any other .ASI loader.
-(Modding support (script hooking) is not ready and we got everything on hold now.)
-
-*IMPORTANT* Right now, I am not working with thaw -> but im still developing my multiplayer mod.
-Unless someone else knows his stuff and reverses the game on its own, or has something for thaw done yet there's no mod currently developed or at least working for/with this as far as I know, except my special meter keeper.
 
 :wrench: How to install modloader
 -------------------
@@ -22,12 +18,12 @@ Unless someone else knows his stuff and reverses the game on its own, or has som
 :interrobang: How does it work
 -------------------
 
-I decided to write down some information for less expierenced users.
+The downloaded files are used to do one thing: load an empty bink32 dll with only our code but also / still handles/passes all function calls made from the game to the default dll it's expecting to have loaded, now the one having "hooked" in the name, and so making it possible to run code at the point of when the game tries to call the bink32 file for the first time.
 
-It is basically is an empty .DLL file named exactly like the .DLL file "binkw32.dll" inside the game's folder. It comes with the game - for the game, and is needed for audio/video related things. 
-
-Now that we have one original binkw32.dll and our .dll file named the same, we need to rename the original to something like binkw32Hooked.dll.
-
-Now the game loads my binkw32.dll with my code in it, because it thinks its the one that came with the game. We can now do whatever whe want (and are able to) as long as we redirect all function calls from the game that are bink-functions to the original bink .dll file to let the code operate normally. As soon as our custom made binkw32.dll gets loaded, it finds all other .dll files, but renamed to .ASI - and loads them into the game like any other .dll. 
+Downsides: * Not the first run code, the game still has own control - until it loads the dll and makes stuff possible.
+           * (project wise) no API and stuff
+           
+No matter what, u can code an dll and use memhax to do your thing -> thats what I was using this for. The base idea was taken from a Fallout mod, I believe.
+           
 
 [releases]: <https://github.com/michael-fa/thaw-modloader/releases>
